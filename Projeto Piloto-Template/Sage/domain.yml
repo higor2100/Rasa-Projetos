@@ -1,0 +1,30 @@
+version: "2.0"
+
+intents:
+  - saudacoes
+  - despedida
+  - afirmacao
+  - negacao
+  - chamando_sage
+
+responses:
+  utter_saudacoes:
+  - text: "Olá"
+
+  utter_despedida:
+  - text: "Já vai tarde"
+    image: "https://c.tenor.com/diXmnN3fo5IAAAAM/homer-middle-finger.gif"
+
+  utter_afirmacao:
+  - text: "NÃO!"
+
+  utter_negacao:
+  - text: "Obrigada"
+
+  utter_chamando_sage:
+  - text: "Preciso de cu, maravilhoso :D"
+    image: "https://i.ytimg.com/vi/h0blJ5F_SS4/maxresdefault.jpg"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

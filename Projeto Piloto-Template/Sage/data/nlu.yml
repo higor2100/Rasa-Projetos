@@ -1,0 +1,43 @@
+version: "2.0"
+
+nlu:
+- intent: saudacoes
+  examples: |
+    - oi
+    - olá
+    - eai
+    - e ai
+    
+- intent: despedida
+  examples: |
+    - Boa tarde
+    - Bom dia
+    - Tchau
+    - tchau
+    - falou
+    - Te vejo mais tarde
+
+- intent: afirmacao
+  examples: |
+    - sim
+    - s
+    - ok
+    - certo
+    - correto
+
+- intent: negacao
+  examples: |
+    - não
+    - n
+    - ñ
+    - nunca
+    - não achei legal
+    - não mesmo
+    - serio?
+    - sério?
+
+- intent: chamando_sage
+  examples: |
+    - sage
+    - minha cura
+    - me socorra

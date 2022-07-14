@@ -1,0 +1,8 @@
+version: "2.0"
+
+rules:
+
+- rule: sage_sendo_sage
+  steps:
+  - intent: chamando_sage
+  - action: utter_chamando_sage
